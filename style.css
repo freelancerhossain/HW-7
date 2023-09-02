@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    background-size: cover;
+    font-family: sans-serif;
+    
+}
+
+.menu_bar{
+    background: rgb(14, 19, 17);
+    text-align: center;
+}
+
+.menu_bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #e40505;
+}
+
+.menu_bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu_bar ul li a{
+    text-decoration: none;
+    color: rgb(23, 235, 235);
+}
+
+.active, .menu_bar ul li:hover{
+    background: #ab06ec;
+    border-radius: 3px;
+}
+
+.menu_bar{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.hossain{
+    border: 3px solid rgb(5, 4, 4);
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: rgb(7, 231, 100);
+    text-align: left;
+    padding: 20px 25px 30px;
+    outline-color: #0f0911;
+    outline-width: 5px;
+    outline-style: solid;
+}
+
+.hossain2{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    color: rgb(245, 240, 240);
+    text-align: center;
+    line-height: 200px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-delay: 0.8s;
+    transition: width 3s,color 3s, font-size 3s, transform 3s; 
+    display: flexbox;  
+    margin-left: auto;
+    margin-right: auto; 
+    
+    
+}
+
+.hossain2:hover{
+    width: 300px;
+    color: black;
+    font-size: 30px;
+    transform: rotate(360deg);
+}
+
+button{
+    font-size: 20px;
+    background-color: orangered;
+    padding: 15px 30px;
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    text-transform: uppercase;
+    
+}
+
+p{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
